@@ -4,10 +4,7 @@ def encoder(password):  # encodes password
     for digit in password:
         new_number = str((int(digit) + 3) % 10)  # adds 3 to each digit
         encoded_password += new_number
-    return(encoded_password)
-
-def decoder(encoded_password):
-    pass
+    return encoded_password
 
 
 while __name__ == "__main__":
