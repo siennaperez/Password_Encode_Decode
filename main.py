@@ -6,6 +6,8 @@ def encoder(password):  # encodes password
         encoded_password += new_number
     return encoded_password
 
+def decoder(password):
+    pass
 
 while __name__ == "__main__":
     # main menu
