@@ -25,7 +25,7 @@ while __name__ == "__main__":
 
     # encoder selection
     if menu_selection == 1:
-        password = input("Please enter your password to encode: ")
+        password = input("Please enter your password to encode (integers only): ")
         print("Your password has been encoded and stored!")
 
     # decoder selection
